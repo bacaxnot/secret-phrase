@@ -1,1 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
+:root
+    font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif
+    font-size: 62.5%
+    line-height: 140%
+    letter-spacing: 0.01em
+
+    font-synthesis: none
+    text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    -webkit-text-size-adjust: 100%
+/* consistent box-model */
+*,
+*::after,
+*::before
+    box-sizing: border-box
+/* consistent margin/padding */
+*
+    margin: 0
+    padding: 0
+/* consistent line height */
+*
+    line-height: calc(1em + 0.5rem)
+/* removes default scrollbars */
+/* consistent fonts */
+input,
+button,
+textarea,
+select
+    font: inherit
+/* remove default browser focus states */
+input:focus,
+textarea:focus,
+select:focus
+    outline: none
+/* remove adding arrows on input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+    -webkit-appearance: none
+    margin: 0
+input[type='number']
+    -moz-appearance: textfield
+/* allow percentage based heights */
+html,
+body,
+app-root
+  height: 100%
+/* set default theme */
+html
+    color-scheme: light
+/* avoids browser default touch handlers */
+/* body
+  touch-action: none */
+/* create stacking context */
+app-root
+    isolation: isolate
+/* make media responsive */
+img,
+picture,
+svg,
+canvas,
+video
+    display: block
+    max-width: 100%
+    height: inherit
+/* avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    overflow-wrap: break-word
+/* removes anchor text decoration and color change */
+a
+    text-decoration: none
+    color: inherit
+/* removes ul dots */
+ul
+    list-style-type: none
+
+// main styles
+body
+  background-color: #122139
+  color: rgba(255, 255, 255, 0.87)
